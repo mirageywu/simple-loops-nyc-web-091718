@@ -1,7 +1,6 @@
 
-number_of_times = 0
-
 def loop_iterator(number_of_times)
+  number_of_times = 0
     loop do
       print "Welcome to Flatiron School's Web Development Course!"
       number_of_times += 1
@@ -33,6 +32,6 @@ def for_iterator(number_of_times)
   number_of_times = 0..10
   for count in number_of_times
     number_of_times += 1
-    print "Welcome to Flatiron School's Web Development Course!"
+    puts "Welcome to Flatiron School's Web Development Course!"
   end
 end
