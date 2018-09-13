@@ -12,7 +12,7 @@ end
 
 def times_iterator
   7.times do
-    print "Welcome to Flatiron School's Web Development Course!"
+    puts "Welcome to Flatiron School's Web Development Course!"
   end
 end
 
